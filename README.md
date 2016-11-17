@@ -84,7 +84,7 @@ char*strcpy(char *dich, char *nguon);
 int strlen(char *s);  
 
 4.Hàm strcat:  
-
+ 
 Công dụng: ghép chuỗi nguồn vào sau chuỗi đích.  
 
 Cấu trúc:
@@ -128,7 +128,9 @@ char *strrchr(char *s,char ch);
 
 - Một dạng sử dụng con trỏ đặc biệt là việc sử dụng một mảng các biến con trỏ    
 
--cú pháp: type *pointer_array[size];  
+-cú pháp: type *pointer_array[size];     
+ 
+ ví dụ:char*temp[5];
 
 
  
